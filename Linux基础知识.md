@@ -2,6 +2,7 @@
 #### linux基本信息查询 
 1. 查看当前linux发行版信息
 > ` cat /etc/*-release `
+
 ![image](https://github.com/user-attachments/assets/389f163b-6df7-4344-a5cb-a5d5d77949cf)
 
 
