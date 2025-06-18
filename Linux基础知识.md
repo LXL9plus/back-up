@@ -7,3 +7,6 @@
 
 
 2. 查看linux内核信息
+> ` uname -r `
+
+![Uploading image.png…]()
