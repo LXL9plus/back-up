@@ -10,16 +10,18 @@
 ```
  cat /etc/*-release
 ```
+
 2. 查看linux内核信息
 ```
 uname -r
 ```
-3. 查看当前默认shell
 
+3. 查看当前默认shell
 列出系统当前所有可用的shell
 ```
 chsh -l 或 cat /etc/shells
 ```
+
 查看当前默认shell
 ```
 echo $SHELL
@@ -29,4 +31,40 @@ echo $SHELL
 ```
 dhclient 或 nmcli 或 ip a
 ```
+
+5. 查看当前登录用户及切换登录用户
+```
+[vbird1@VM-16-17-centos ~]$ whoami
+vbird1
+[vbird1@VM-16-17-centos ~]$ su - root
+Password:
+Last login: Wed Jun 18 11:21:59 CST 2025 on pts/0
+[root@VM-16-17-centos ~]# whoami
+root
+[root@VM-16-17-centos ~]# exit
+logout
+[vbird1@VM-16-17-centos ~]$
+```
+6. 查看主机名及更换主机名
+```
+[root@VM-16-17-centos ~]# hostname centos                    # 临时更换
+[root@VM-16-17-centos ~]# hostname
+centos
+[root@VM-16-17-centos ~]# hostnamectl set-hostname centos    # 永久更换
+[root@VM-16-17-centos ~]# cat /etc/hostname
+centos
+```
+
+7. 查看当前工作目录
+```
+[root@VM-16-17-centos ~]# pwd
+/root
+[root@VM-16-17-centos ~]# su - vbird1
+Last login: Wed Jun 18 14:24:32 CST 2025 from 221.12.4.143 on pts/0
+[vbird1@centos ~]$ pwd
+/home/vbird1
+```
+
+
+
 
