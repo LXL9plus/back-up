@@ -12,8 +12,10 @@
 ![image](https://github.com/user-attachments/assets/565933af-9bbd-4cc1-9ca7-d5f20232da74)
 
 3. 查看当前默认shell
+
 列出系统当前所有可用的shell
 > ` chsh -l `或` cat /etc/shells `
+
 查看当前默认shell
 >  ` echo $SHELL `
 
