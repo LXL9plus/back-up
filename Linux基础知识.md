@@ -25,5 +25,8 @@ chsh -l 或 cat /etc/shells
 echo $SHELL
 ```
 
-4. 
+4. 查看网卡信息及获取IP地址
+```
+dhclient 或 nmcli 或 ip a
+```
 
