@@ -1,11 +1,11 @@
-## Linux 基础指令学习
+## Linux 基础学习
 #### 系统关机、重启
 > 重启：` reboot ` 或` shutdown -r now `
 > 
 > 关机：` shutdown -h now `或` power off `
 > 
 > `shutdown - r +30 ` 再过 30 分钟之后系统会重启，并显示后面的消息给所有在线用户
-#### linux基本信息查询 
+#### linux常用指令 
 1. 查看当前linux发行版信息
 ```
  cat /etc/*-release
@@ -65,6 +65,19 @@ Last login: Wed Jun 18 14:24:32 CST 2025 from 221.12.4.143 on pts/0
 /home/vbird1
 ```
 
+8. 切换目录
+```
+cd /          :切换工作目录
+cd -          :返回切换前的目录
+cd ~          ：回到家目录
+cd ./         ：.代表当前目录
+cd ..         ：放回上级目录
+```
 
-
+9. 更换密码
+```
+passwd                 :更换密码
+passwd (whoami)        ：更换其他用户密码
+passwd -d (whoami)     ：永久删除某个用户密码
+```
 
