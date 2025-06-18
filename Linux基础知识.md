@@ -17,12 +17,11 @@ uname -r
 ```
 
 3. 查看当前默认shell
-列出系统当前所有可用的shell
+* 列出系统当前所有可用的shell
 ```
 chsh -l 或 cat /etc/shells
 ```
-
-查看当前默认shell
+* 查看当前默认shell
 ```
 echo $SHELL
 ```
