@@ -9,4 +9,5 @@
 2. 查看linux内核信息
 > ` uname -r `
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/565933af-9bbd-4cc1-9ca7-d5f20232da74)
+
